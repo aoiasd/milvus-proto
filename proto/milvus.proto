@@ -2295,7 +2295,7 @@ message AnalyzerToken{
 }
 
 message AnalyzerResult {
-  repeated AnalyzerToken tokens=1;
+  repeated AnalyzerToken tokens = 1;
 }
 
 message RunAnalyzerResponse{
